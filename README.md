@@ -3,14 +3,14 @@
 ### Starter Code - [Here](https://codesandbox.io/s/react-state-demo-starter-8vmckv?file=/src/App.tsx)
 - Review the starter code provided, which includes a basic React application with TypeScript.
 - Note the `Button` component, defined with TypeScript interfaces and the `React.FC` (Function Component) type. It receives `text` for button content and `onClick` function as props.
-- Note the `Counter` component that uses the `Button` component, with a number display ("0") and a button that triggers a `console.log`.
+- Note the `Counter` component that uses the `Button` component, with a number display `0` and a button that triggers a `console.log`.
 
 ---
 
 ### Introduction to State in React [Here](https://codesandbox.io/s/react-state-demo-starter-objective-1-vxgykc?file=/src/App.tsx:0-676)
 - Learning Objective:  Understand the concept of state in React, introduced with the `useState` hook.
 - Note the usage of `useState` in the `Counter` component, where the `count` state variable is initially set to `0`.
-- Notice how `count` replaces the hard-coded "0" in the `Counter` component.
+- Notice how `count` replaces the hard-coded `0` in the `Counter` component.
 - The `handleClick` function, which replaced the `console.log` statement in the `Button`'s `onClick` prop,  updates `count` state.
 
 ---
