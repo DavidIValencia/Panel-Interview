@@ -7,7 +7,7 @@
 
 ---
 
-### Introduction to State in React [Here](https://codesandbox.io/s/react-state-demo-starter-8vmckv?file=/src/App.tsx](https://codesandbox.io/s/react-state-demo-starter-objective-1-vxgykc?file=/src/App.tsx:0-676)
+### Introduction to State in React [Here](https://codesandbox.io/s/react-state-demo-starter-objective-1-vxgykc?file=/src/App.tsx:0-676)
 - Learning Objective:  Understand the concept of state in React, introduced with the `useState` hook.
 - Note the usage of `useState` in the `Counter` component, where the `count` state variable is initially set to `0`.
 - Notice how `count` replaces the hard-coded "0" in the `Counter` component.
@@ -15,7 +15,7 @@
 
 ---
 
-### Handling Click Events in React [Here](https://codesandbox.io/s/react-state-demo-starter-8vmckv?file=/src/App.tsx](https://codesandbox.io/s/react-state-demo-starter-objective-1-vxgykc?file=/src/App.tsx:0-676)](https://codesandbox.io/s/react-state-demo-starter-objective-2-r2k5wm?file=/src/App.tsx:0-705)
+### Handling Click Events in React [Here](https://codesandbox.io/s/react-state-demo-starter-objective-2-r2k5wm?file=/src/App.tsx:0-705)
 - Learning Objective:  Understand how to handle click events in React and how to call a function with an argument in an event handler.
 - The updated `handleClick` function in the `Counter` component, which takes a number as an argument, increases `count` by this given number.
 - Note that how `handleClick` is passed to `Button`'s `onClick` as an arrow function which calls `handleClick` with `2` as an argument.
